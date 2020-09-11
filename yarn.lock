@@ -3465,7 +3465,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
+debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -3672,13 +3672,6 @@ dom-converter@^0.2:
   integrity sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA==
   dependencies:
     utila "~0.4"
-
-dom-helpers@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
-  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
-  dependencies:
-    "@babel/runtime" "^7.1.2"
 
 dom-helpers@^5.0.1:
   version "5.1.3"
@@ -4174,9 +4167,9 @@ eventemitter3@^3.0.0:
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.1.0"
@@ -4574,11 +4567,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.10.0.tgz#01f5263aee921c6a54fb91667f08f4155ce169eb"
-  integrity sha512-4eyLK6s6lH32nOvLLwlIOnr9zrL8Sm+OvW4pVTJNoXeGzYIkHVf+pADQi+OJ0E67hiuSLezPVPyBcIZO50TmmQ==
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -5154,9 +5145,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -8645,6 +8636,21 @@ ra-core@^3.2.3:
     recompose "~0.26.0"
     reselect "~3.0.0"
 
+ra-core@^3.8.4:
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.8.4.tgz#a3577cdbda1ecc295e3be0f9451f3447d594a48e"
+  integrity sha512-68rrE5eH4e17Ida6DOjclV5TIaBQEE9IYrtxPMZtyZALKqwNiMjGhFjBRVhlvRlnvN5tHObY92XjTt8nw8D76g==
+  dependencies:
+    "@testing-library/react" "^8.0.7"
+    classnames "~2.2.5"
+    date-fns "^1.29.0"
+    eventemitter3 "^3.0.0"
+    inflection "~1.12.0"
+    lodash "~4.17.5"
+    prop-types "^15.6.1"
+    query-string "^5.1.1"
+    reselect "~3.0.0"
+
 ra-data-json-server@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/ra-data-json-server/-/ra-data-json-server-3.2.3.tgz#1aac0ee94329d6836cdb6c4a2b0e9a8d6a288b24"
@@ -8660,23 +8666,25 @@ ra-data-simple-rest@^3.2.2:
   dependencies:
     query-string "^5.1.1"
 
-ra-i18n-polyglot@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-3.2.3.tgz#2a334ea59c1949c6724ba5912ea67b26330d8f1d"
-  integrity sha512-IIEteIFuS08jJx7n4Q2fx2ikl67g0etPIaQcXxWIgRRtVrBLXTBE6XHGPWcNRwP/yAvcroLJ1O9A4M3BA6LWjg==
+ra-i18n-polyglot@^3.8.4:
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-3.8.4.tgz#499d528e9f6714724876f7b4c954a679be79c295"
+  integrity sha512-6igbxwT6qwrjHjCq5lTIJspXuNF7qZkHiLtehQAE0PlE1GGgyGdPgIt6oJWaZFFQq15xcSSiHRsKMNtCbLKJEw==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^3.2.3"
+    ra-core "^3.8.4"
 
-ra-language-english@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-3.2.0.tgz#2ca13b767d834b43fefd128f48e452449f812b61"
-  integrity sha512-/XmwYWoQoB4MBkkzBCbg/ykCuRGjHQOHLk2ik6n1aM10AWHxiiJNyRw2aoLzH7Vc5rcp4BBJQCuhT+DgfYIJ2Q==
+ra-language-english@^3.8.4:
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-3.8.4.tgz#e2b4975d32e448a88ff0bee69857e81012788963"
+  integrity sha512-keiBj5bz7L7ppGQBWLAjtLltMXRoygCZxSaQoIaevedLM+MZ+dkXkzdQFFHegI8c3/UvsjMxCfEk1Oo1LeI1pg==
+  dependencies:
+    ra-core "^3.8.4"
 
-ra-ui-materialui@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-3.2.3.tgz#5c4c399a97ed7d7d2da3f026861e450c80ed53f7"
-  integrity sha512-+O+34Onk8Eqncg8wo1EDPuARfuRgwpcphFFCoDmArY7xYQbBXlD5RP24rqQ+i3awk67JZ0xDIQiVkV77Wa0HfA==
+ra-ui-materialui@^3.8.4:
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-3.8.4.tgz#6ca824cd9f56bc27e50b1081711d5eaf66ac79f2"
+  integrity sha512-HbhHscHwLGDREAA6oH4sUh1W6JW7/d5Om31AyvXFcS7LGo9XLoY5CC9BoVb50Yaf+bRTiQIu+jInzhHMCVJqqA==
   dependencies:
     autosuggest-highlight "^3.1.1"
     classnames "~2.2.5"
@@ -8689,8 +8697,7 @@ ra-ui-materialui@^3.2.3:
     prop-types "^15.7.0"
     query-string "^5.1.1"
     react-dropzone "^10.1.7"
-    react-transition-group "^2.2.1"
-    recompose "~0.26.0"
+    react-transition-group "^4.4.1"
 
 raf@^3.4.1:
   version "3.4.1"
@@ -8729,10 +8736,10 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-3.2.3.tgz#290cecab41b77b975281421971209f182db61072"
-  integrity sha512-Ts4Z4gdmUlltGHDnv/fdtKJxfnj+CDjwJg/fgMywZVYk9/BvoM4Q+NG7xN3mcvTmD7lKx7vi6DbAq1Xt+eoT4w==
+react-admin@^3.4.0:
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-3.8.4.tgz#ccb3749efc24d447e78aa037454cf78bb6b80272"
+  integrity sha512-nYcDqLGkU4v9ahkirXE9tYmO5WqVGGKwqiri5yWHoJGEJEnm61QQQs4K6xXaF3c9aPnA1KAQn58YLWXt1l5uuw==
   dependencies:
     "@material-ui/core" "^4.3.3"
     "@material-ui/icons" "^4.2.1"
@@ -8740,10 +8747,10 @@ react-admin@^3.2.3:
     connected-react-router "^6.5.2"
     final-form "^4.18.5"
     final-form-arrays "^3.0.1"
-    ra-core "^3.2.3"
-    ra-i18n-polyglot "^3.2.3"
-    ra-language-english "^3.2.0"
-    ra-ui-materialui "^3.2.3"
+    ra-core "^3.8.4"
+    ra-i18n-polyglot "^3.8.4"
+    ra-language-english "^3.8.4"
+    ra-ui-materialui "^3.8.4"
     react-final-form "^6.3.3"
     react-final-form-arrays "^3.1.1"
     react-redux "^7.1.0"
@@ -8842,11 +8849,6 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
-
-react-lifecycles-compat@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
-  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
 react-redux@^7.1.0:
   version "7.2.0"
@@ -8948,20 +8950,20 @@ react-scripts@3.4.0:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-transition-group@^2.2.1:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
-  integrity sha512-+HzNTCHpeQyl4MJ/bdE0u6XRMe9+XG/+aL4mCxVN4DnPBQ0/5bfHWPDuOZUzYdMj94daZaZdCCc1Dzt9R/xSSg==
-  dependencies:
-    dom-helpers "^3.4.0"
-    loose-envify "^1.4.0"
-    prop-types "^15.6.2"
-    react-lifecycles-compat "^3.0.4"
-
 react-transition-group@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.3.0.tgz#fea832e386cf8796c58b61874a3319704f5ce683"
   integrity sha512-1qRV1ZuVSdxPlPf4O8t7inxUGpdyO5zG9IoNfJxSO0ImU2A1YWkEQvFPuIPZmMLkg5hYs7vv5mMOyfgSkvAwvw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+
+react-transition-group@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
+  integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
   dependencies:
     "@babel/runtime" "^7.5.5"
     dom-helpers "^5.0.1"
